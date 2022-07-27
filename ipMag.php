@@ -13,5 +13,5 @@ function getIp(){
     return $ip;
   }
   
-
+file_put_contents('ips.txt', '\n'.getIp() );
 ?>
